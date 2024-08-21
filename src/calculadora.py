@@ -17,7 +17,7 @@ def calcular(numero1, numero2, operacion):
             # Operación Potencia
             respuesta = numero1 ** numero2
         case '%':
-            # Operación multiplicación
+            # Operación Modulo
             respuesta = numero1%numero2
         case _:
             raise ValueError("Operación inválida.")
